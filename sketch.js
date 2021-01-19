@@ -41,4 +41,8 @@
         if(keyCode===38){
             Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:65,y:-77})
         }
+        if(keyCode===32){
+            paperObject.x = 20;
+            paperObject.y = 20;
+        }
     }
